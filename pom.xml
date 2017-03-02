@@ -12,10 +12,16 @@
         <module>account-email</module>
     </modules>
     <properties>
-        <spring.version>2.5.6</spring.version>
+        <!--<java.version>1.8</java.version>-->
+        <!--start 指定 maven compiler  的-source -target 目标 同时影响 idea java language level -->
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <!--end-->
+        <!--start  资源文件过滤使用的编码-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--end -->
+        <spring.version>2.5.6</spring.version>
     </properties>
-
 
 
 </project>
