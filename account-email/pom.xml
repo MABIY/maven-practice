@@ -5,10 +5,11 @@
     <parent>
         <artifactId>account</artifactId>
         <groupId>com.juven.mvnbook.account</groupId>
-        <version>1.2-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>account-email</artifactId>
+    <version>${project.version}</version>
     <name>Account email</name>
     <properties>
         <javax.mail.version>1.4.1</javax.mail.version>
