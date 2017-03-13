@@ -112,6 +112,7 @@ public class AccountPersistServiceImpl implements AccountPersistService {
 
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public Account readAccount(String id) throws AccountPersistException {
         Document doc = readDocument();
@@ -138,6 +139,7 @@ public class AccountPersistServiceImpl implements AccountPersistService {
         return null;
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public void deleteAccount(String id) throws AccountPersistException {
         Document doc = readDocument();
