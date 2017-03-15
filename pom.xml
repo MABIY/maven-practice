@@ -119,14 +119,26 @@
         <repository>
             <id>nexus-releases</id>
             <name>Nexus Releases Repository</name>
-            <url>http://172.20.10.153:8081/repository/maven-releases/</url>
+            <url>http://192.168.3.153:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>Nexus Snapshots Repository</name>
-            <url>http://172.20.10.153:8081/repository/maven-snapshots/</url>
+            <url>http://192.168.3.153:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>central</id>-->
+            <!--<url>//fdsa</url>-->
+            <!--<releases>-->
+                <!--<enabled>true</enabled>-->
+            <!--</releases>-->
+            <!--<snapshots>-->
+                <!--<enabled>true</enabled>-->
+            <!--</snapshots>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 
 </project>
