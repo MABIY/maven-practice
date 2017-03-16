@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>account-email</artifactId>
-    <version>${project.version}</version>
     <name>Account email</name>
     <properties>
         <javax.mail.version>1.4.1</javax.mail.version>
