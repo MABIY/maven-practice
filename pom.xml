@@ -12,6 +12,7 @@
         <module>account-email</module>
         <module>account-persist</module>
         <module>account-captcha</module>
+        <module>account-service</module>
     </modules>
 
     <description>
@@ -76,6 +77,16 @@
         </dependencies>
     </dependencyManagement>
 
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.14</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
     <build>
         <pluginManagement>
             <plugins>
