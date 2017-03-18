@@ -18,12 +18,12 @@ import static junit.framework.Assert.assertTrue;
  */
 public class AccountCaptchaServiceTest {
 
-    private AccountCaptchService service;
+    private AccountCaptchaService service;
 
     @Before
     public void perpare() {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("account-captcha.xml");
-        service = (AccountCaptchService) ctx.getBean("accountCaptchaService");
+        service = (AccountCaptchaService) ctx.getBean("accountCaptchaService");
     }
 
     @Test

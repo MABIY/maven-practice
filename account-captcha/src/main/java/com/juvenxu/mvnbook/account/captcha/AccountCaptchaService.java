@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by lh on 17-3-13.
  */
-public interface AccountCaptchService {
+public interface AccountCaptchaService {
     String generateCaptchaKey();
 
     byte[] generateCaptchaImage(String captchaKey) throws AccountCaptchaException;

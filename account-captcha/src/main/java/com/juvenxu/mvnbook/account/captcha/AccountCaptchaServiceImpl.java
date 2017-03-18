@@ -16,7 +16,7 @@ import java.util.Properties;
 /**
  * Created by lh on 17-3-14.
  */
-public class AccountCaptchaServiceImpl implements AccountCaptchService,InitializingBean {
+public class AccountCaptchaServiceImpl implements AccountCaptchaService,InitializingBean {
 
     private DefaultKaptcha producer;
 
