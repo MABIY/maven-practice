@@ -46,17 +46,17 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
-        <testResources>
-            <testResource>
-                <directory>
-                    src/test/resources
-                </directory>
-                <excludes>
-                    <exclude>account-service.properties</exclude>
-                </excludes>
-                <filtering>true</filtering>
-            </testResource>
-        </testResources>
+        <!--<testResources>-->
+            <!--<testResource>-->
+                <!--<directory>-->
+                    <!--src/test/resources-->
+                <!--</directory>-->
+                <!--<excludes>-->
+                    <!--<exclude>account-service.properties</exclude>-->
+                <!--</excludes>-->
+                <!--<filtering>true</filtering>-->
+            <!--</testResource>-->
+        <!--</testResources>-->
 
         <plugins>
             <plugin>
