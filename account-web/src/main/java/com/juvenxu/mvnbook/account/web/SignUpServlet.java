@@ -55,7 +55,7 @@ public class SignUpServlet extends HttpServlet {
         request.setCaptchaKey(captchaKey);
         request.setCaptchaValue(captchaValue);
 
-        request.setActivateServiceUrl(getServletContext().getRealPath("/") + "active");
+        request.setActivateServiceUrl(getServletContext().getRealPath("/") + "activate");
 
         try {
             service.signUp(request);
