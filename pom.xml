@@ -107,6 +107,7 @@
                     <configuration>
                         <type>runtime</type>
                         <properties>
+                            <!--部署war的位置 set-->
                             <war>${project.build}/account-web/target/account-web-${version}</war>
                             <cargo.hostname>172.20.10.153</cargo.hostname>
                             <cargo.protocol>http</cargo.protocol>
