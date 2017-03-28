@@ -111,7 +111,7 @@
                             <war>${project.build}/account-web/target/account-web-${version}</war>
                             <cargo.hostname>172.20.10.153</cargo.hostname>
                             <cargo.protocol>http</cargo.protocol>
-                            <cargo.servlet.port>8080</cargo.servlet.port>
+                            <cargo.servlet.port>8083</cargo.servlet.port>
                             <cargo.remote.username>manage</cargo.remote.username>
                             <cargo.remote.password>manage</cargo.remote.password>
                         </properties>
