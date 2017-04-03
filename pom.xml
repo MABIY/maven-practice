@@ -109,7 +109,7 @@
                         <properties>
                             <!--部署war的位置 set-->
                             <war>${project.build}/account-web/target/account-web-${project.version}</war>
-                            <cargo.hostname>192.168.11.145</cargo.hostname>
+                            <cargo.hostname>192.168.11.200</cargo.hostname>
                             <cargo.protocol>http</cargo.protocol>
                             <cargo.servlet.port>8083</cargo.servlet.port>
                             <cargo.remote.username>manage</cargo.remote.username>
