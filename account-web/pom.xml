@@ -27,6 +27,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
+                    <!--配置 war 的输出目录-->
                     <outputDirectory>${project.parent.basedir}/docker/</outputDirectory>
                 </configuration>
             </plugin>
